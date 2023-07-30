@@ -12,8 +12,8 @@ por ahora veremos una biografía, ejercicios hechos en clase y una sección de c
 
 ## Tabla de Contenidos
 1.  [Inicio] (¡Tengamos-un-gran-inicio!)
-2.  [Ejercicios-bootcamp] (Un Camino de aprendizaje)
-3.  [Proyecto-personal] (Entre-huellas-de-hilos)
+2.  [Ejercicios] (Un Camino de aprendizaje)
+3.  [ProyectoPersonas] (Entre-huellas-de-hilos)
 4.  [Contacto](¡Hablemos!)
 
 ***
