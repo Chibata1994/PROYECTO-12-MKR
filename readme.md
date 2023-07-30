@@ -11,9 +11,9 @@ por ahora veremos una biografía, ejercicios hechos en clase y una sección de c
 ***
 
 ## Tabla de Contenidos
-1.  [Inicio] (Perfil)
-2.  [Ejercicios] (Aprendizaje)
-3.  [ProyectoPersonal] (Bordados)
+1.  [Inicio](Perfil)
+2.  [Ejercicios](Aprendizaje)
+3.  [ProyectoPersonal](Bordados)
 4.  [Contacto](¡Hablemos!)
 
 ***
