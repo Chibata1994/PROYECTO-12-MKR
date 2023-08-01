@@ -1,0 +1,41 @@
+.Background{
+    width: 1920px;
+    height: 450px;
+    background-image: url("FONDO_CABEZOTE.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.Título{
+font-size: 250px;
+font-family: Arvo-Bold;
+color: white;
+opacity: 0.2;
+min-height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.Intro{
+font-size: 21px;
+font-family: Arvo;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#Nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 400px;
+    align-items: center;
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    color: darkslateblue;
+
+
+}
