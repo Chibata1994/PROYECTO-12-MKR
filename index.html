@@ -1,28 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Stylesheet" href="Style.css">
-    <title>MI PORTFOLIO</title>
-</head>
-<body>
-    <!--Sección PERFIL-->
-    <div>
-        <div class="Background">
-            <div class="Título">¡BIENVENID@!</div>
-            <p class="Intro">Gracias por tomarte el tiempo de leerme, e interesarte en mi trabajo.</p>
-            <nav id="Nav">
-                <a href="#Perfil">¡Un poco de mí!</a>
-                <a href="#Ejercicios">Aprendizaje</a>
-                <a href="#Personal">Pintando con hilos</a>
-                <a href="#Contacto">¡Hablemos!</a>
-            </nav>
-        </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="Style.css" />
+		<title>Mi Portfolio Daniela Jiménez</title>
+	</head>
+	<body>
 
-       
-        
-    </div>
-</body>
+		<header id="Encabezado">
+			<nav id="Nav">
+				<div class="container">
+					<h1 class="logo"><a href="#Encabezado">Chibata</a></h1>
+					<ul>
+						<li><a href="#Inicio">Un poco de mí</a></li>
+						<li><a href="#Bordados">Entre hilos</a></li>
+						<li><a href="#Contacto">¡Hablemos!</a></li>
+					</ul>
+				</div>
+                
+			</nav>
+			<div id="Banner">
+				<div class="container">
+					<div class="Banner-row">
+						<div class="Banner-row-titulo">
+							<h1 class="display-1">Soy Daniela<br /><span class="txt-blanco">pero me gusta más el Chibata</span>
+							</h1>
+							<p class="Intro">
+								¡Hola! Bienvenidos a mi portfolio donde quiero compartirles los<br>
+                                bordados de animales que he hecho durante 3 años, además trabajo<br>
+                                como diseñadora gráfica, a continuación te dejo mi behance. 
+							</p>
+							<a href="https://www.behance.net/chibatajim4478" class="Boton  Boton-Oscuro">Ver Behance</a></div>
+						
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section id="Portfolio">
+			<div class="container">
+				<h2>Entre Hilos</h2>
+				<p>
+					Hago retratos con hilos de los amores de muchas personas, las mascotas.
+                    La inspiración fue mi perrito Mono durante la pandemia.
+				</p>
+				<div class="Portfolio-row">
+					<a href="#"><img src="Bordado1.jpg"/></a>
+					<a href="#"><img src="Bordado2.jpg"/></a>
+					<a href="#"><img src="Bordado3.jpg"/></a>
+				</div>
+				<div class="Portfolio-row">
+					<a href="#"><img src="Bordado4.jpg"/></a>
+					<a href="#"><img src="Bordado5.jpg"/></a>
+					<a href="#"><img src="Bordado6.jpg"/></a>
+				</div>
+			</div>
+            <div class="container">
+				<a
+					href="https://www.instagram.com/chibatadiseno/"
+					class="Boton_IG">Sígueme en @chibatadiseno</a>
+		</section>
+
+		<section id="Contacto">
+			<div class="container">
+				<h2>¡Hablemos!</h2>
+				<p>
+					Si quieres una comisión de tu mascota, sin importar la especie, ni tamaño
+                    ¡Aquí te la hago!
+				</p>
+				<div class="Contacto-row">
+					<div class="Contacto-row-img">
+						<img src="PERRO_CONTACTO.jpg" alt="" />
+					</div>
+					<div class="Contacto-row-forma">
+						<h4>Dejame tus datos</h4>
+						<form action="">
+							<div class="form-group">
+								<label for="name">Nombre</label>
+								<input type="text" class="form-control" />
+							</div>
+							<div class="form-group">
+								<label for="email">Correo</label>
+								<input type="email" class="form-control" />
+							</div>
+							<div class="form-group">
+								<label for="message">¿Algo para indicarme?</label>
+								<textarea
+									name="message"
+									id=""
+									cols="30"
+									rows="10"
+									class="form-control"
+								></textarea>
+							</div>
+							<button class="Boton Boton-Oscuro">ENVIAR</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+	</body>
 </html>

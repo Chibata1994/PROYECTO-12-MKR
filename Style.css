@@ -1,41 +1,223 @@
-.Background{
-    width: 1920px;
-    height: 450px;
-    background-image: url("FONDO_CABEZOTE.png");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+h1 {
+	font-size: 24px;
+    font-family: Arvo-Bold;
+}
+h2 {
+	font-size: 24px;
+	font-weight: 500;
+    font-family: Arvo-Bold;
+    color: #17c4e7;
+}
+h4 {
+	font-size: 24px;
+    font-family: Arvo-Bold;
+}
+
+p {
+	font-size: 18px;
+	margin: 10px 0;
+	line-height: 1.7em;
+	font-weight: 300;
+    font-family: montserrat-regular;
+    color: #9b1cea;
+    text-align: center;
+}
+
+a {
+	text-decoration: none;
+    font-family: Montserrat;
+}
+
+.container {
+	margin: auto;
+	max-width: 1300px;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+.Intro {
+	font-size: 18px;
+    color: #fff;
+    text-align: left;
+}
+
+.txt-blanco {
+	color: #ffffff;
+}
+
+.display-1 {
+	font-size: 72px;
+    color: #7327c9;
+}
+
+.Boton {
+	display: inline-block;
+	font-size: 15px;
+	padding: 12px 23px;
+	border-radius: 4px;
+}
+
+
+.Boton-Oscuro {
+	background: hwb(270 11% 23%);
+    color: #fff;
+    font-family: Arvo-Bold;}
+
+.Boton-Oscuro:hover {
+	background: #9f3bb1;
+	color: #fff;
+}
+
+form label {
+	display: inline-block;
+	margin-bottom: 6px;
+}
+
+form .form-group {
+    color: #fff;
+    font-family: Arvo-Bold;
+	margin-bottom: 16px;
+}
+
+form .form-control {
+	display: block;
+	width: 100%;
+	padding: 7px 12px;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #269aba;
+	background: #fff;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+}
+
+
+#Encabezado {
+	background: radial-gradient(at 10% 10px, #75c4e9, rgb(156, 146, 233), rgb(178, 117, 180));
+	height: 100vh;
+}
+
+#Nav {
+	color: rgb(255, 255, 255);
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#Nav a {
+	color: #ffffff;
+}
+
+#Nav .logo {
+	float: left;
+	padding-top: 16px;
+	font-size: 25px;
+}
+Nav ul {
+	list-style: none;
+	float: right;
+}
+
+#Nav ul li {
+	float: left;
+}
+
+#Nav ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#Nav ul li a:hover {
+	color: #a369dd;
+}
+
+
+#Banner {
+	padding: 80px 0;
+}
+
+.Banner-row {
+	display: flex;
+	padding: 150px 0;
     
 }
 
-.Título{
-font-size: 250px;
-font-family: Arvo-Bold;
-color: white;
-opacity: 0.2;
-min-height: 100px;
-display: flex;
-align-items: center;
-justify-content: center;
+.Banner-row-titulo p.large {
+	padding-bottom: 15px;
 }
 
-.Intro{
-font-size: 21px;
-font-family: Arvo;
-color: white;
-display: flex;
-align-items: center;
-justify-content: center;
+
+#Portfolio {
+	padding: 80px 0;
+	text-align: center;
 }
 
-#Nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 400px;
-    align-items: center;
-    font-family: Montserrat-Bold;
-    font-size: 15px;
-    color: darkslateblue;
-
-
+#Portfolio p {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
 }
+
+.Portfolio-row {
+	display: flex;
+}
+
+.Portfolio-row img {
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+}
+.Boton_IG{
+    background-color: #17c4e7;
+    color: #fff;
+    border: solid;
+    border-radius: 50px;
+    padding: 60px;
+    margin: 20px;   
+}
+
+
+#Contacto {
+	padding: 80px 0;
+}
+
+#Contacto h2 {
+	text-align: center;
+}
+
+#Contacto p {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.Contacto-row {
+	display: flex;
+	padding: 20px;
+}
+
+.Contacto-row-img {
+	width: 80%;
+    height:80px;
+    padding:20px;
+}
+
+.Contacto-row-forma {
+	width: 50%;
+	background-color: #5ccee7;
+	border-radius: 10px;
+	padding: 70px;
+}
+
+.contact-row-form h4 {
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.contact-row-form button {
+	width: 100%;
+}
+
